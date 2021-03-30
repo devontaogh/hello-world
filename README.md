@@ -1,6 +1,10 @@
 # hello-world
 here we go
 
-i can do all things
-
-but im now unsure about coding
+echo "# upload-test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/devontaogh/upload-test.git
+git push -u origin main
